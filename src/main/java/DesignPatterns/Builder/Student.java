@@ -61,7 +61,7 @@ public class Student {
     }
 }
 
-class BuilderExample {
+class Main {
     public static void main(String[] args) {
         Student s = new Student.Builder().age(29).name("shameer").phone("9908474968").build();
         s.display();
