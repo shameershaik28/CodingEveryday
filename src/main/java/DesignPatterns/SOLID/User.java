@@ -22,6 +22,7 @@ class UserRepository
 {
     public void saveData(User u)
     {
+
         System.out.println("User saved : "+u.getName()+", "+u.getEmail());
     }
 }
